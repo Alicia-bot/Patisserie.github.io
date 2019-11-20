@@ -25,3 +25,21 @@ h3 {
 h5 {
   color: #F7AEB6;  
 }
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex_row_date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
