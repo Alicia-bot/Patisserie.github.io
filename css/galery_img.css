@@ -1,0 +1,21 @@
+.test_flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.img_50pc {
+	width: 50%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img_750h {
+	height: 750px;
+	object-fit: cover;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
