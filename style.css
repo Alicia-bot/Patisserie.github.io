@@ -1,40 +1,7 @@
-.navbar {
-  background-color: #99848C;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0px 2px 10px grey;
-}
+@import"css/navbar.css";
+@import"css/carousel.css";
 
-.logo {
-  text-decoration: none;
-}
-
-.logo > img {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.link {
-  text-decoration: none;
-  margin: 20px;
-  padding: 15px;
-  color: white;
-  font-size: 18px;
-  font-family: "Arima Madurai", cursive;
-  letter-spacing: 1px;
-  border-radius: 4px;
-}
-
-.link:hover {
-  color: #F7AEB6;
-}
-
-}
-
-.image_size_carousel {
-  height: 85vh;
-  object-fit: cover;
+body {
+  font-family: 'Arima Madurai', cursive;
+  text-align: center;
 }
