@@ -2,7 +2,12 @@
 @import"css/carousel.css";
 @import"css/partners.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  -webkit-overflow-scrolling: touch;
   font-family: 'Arima Madurai', cursive;
   text-align: center;
   margin-bottom: 100px;
