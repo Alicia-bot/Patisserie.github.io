@@ -8,6 +8,7 @@ body {
 
 h2 {
   color: #99848C;
+  text-align: center;
   font-size: 48px;
   width: 60vw;
   margin: auto;
@@ -18,6 +19,7 @@ h2 {
 
 h3 {
   color: #F7AEB6;
+  text-align: center;
 }
 
 h5 {
