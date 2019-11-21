@@ -19,10 +19,3 @@
 .margin-top-30 {
 	margin-top: 30px;
 }
-
-.anchor {
-	display: block;
-	height: 120px;
-	margin-top: -30px;
-	visibility: hidden;
-}

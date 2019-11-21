@@ -22,8 +22,6 @@ h2 {
   width: 60vw;
   margin: auto;
   padding: 20px;
-  margin-top: 25px;
-  margin-bottom:25px; 
 }
 
 h3 {
@@ -73,8 +71,12 @@ i {
   visibility: hidden;
 }
 
-.anchor2 {
-  display: block;
-  height: 100px;
-  margin-top: -10px;
+#contact:target {
+    padding-top: 3em; 
+    margin-top: -3em; 
+}
+
+#who-are-we:target {
+    padding-top: 3em; 
+    margin-top: -3em; 
 }
