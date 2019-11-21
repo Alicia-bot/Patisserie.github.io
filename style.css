@@ -1,6 +1,8 @@
 @import"css/navbar.css";
 @import"css/carousel.css";
 @import"css/partners.css";
+@import"css/event_page.css";
+
 
 html {
   scroll-behavior: smooth;
@@ -62,4 +64,17 @@ i {
   color: grey;
   width: 40px;
   font-size: 25px;
+}
+
+.anchor {
+  display: block;
+  height: 120px;
+  margin-top: -30px;
+  visibility: hidden;
+}
+
+.anchor2 {
+  display: block;
+  height: 100px;
+  margin-top: -10px;
 }
