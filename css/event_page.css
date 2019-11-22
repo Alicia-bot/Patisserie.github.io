@@ -19,3 +19,13 @@
 .margin-top-30 {
 	margin-top: 30px;
 }
+
+a {
+	color: #F7AEB6;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FFCED6;
+	text-decoration: none;
+}
