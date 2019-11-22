@@ -1,8 +1,15 @@
 @import"css/navbar.css";
 @import"css/carousel.css";
 @import"css/partners.css";
+@import"css/event_page.css";
+
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
+  -webkit-overflow-scrolling: touch;
   font-family: 'Arima Madurai', cursive;
   text-align: center;
   margin-bottom: 100px;
@@ -15,8 +22,6 @@ h2 {
   width: 60vw;
   margin: auto;
   padding: 20px;
-  margin-top: 25px;
-  margin-bottom:25px; 
 }
 
 h3 {
@@ -57,4 +62,21 @@ i {
   color: grey;
   width: 40px;
   font-size: 25px;
+}
+
+.anchor {
+  display: block;
+  height: 120px;
+  margin-top: -30px;
+  visibility: hidden;
+}
+
+#contact:target {
+    padding-top: 3em; 
+    margin-top: -3em; 
+}
+
+#who-are-we:target {
+    padding-top: 3em; 
+    margin-top: -3em; 
 }
