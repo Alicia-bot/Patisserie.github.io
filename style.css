@@ -33,6 +33,10 @@ h5 {
   color: #F7AEB6;  
 }
 
+p {
+  font-size: 20px;
+}
+
 .flex_col {
   display: flex;
   flex-direction: column;
@@ -79,4 +83,9 @@ i {
 #who-are-we:target {
     padding-top: 3em; 
     margin-top: -3em; 
+}
+
+.images_322w_220h {
+  width: 322px;
+  height: 220px;
 }
