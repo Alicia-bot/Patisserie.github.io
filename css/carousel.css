@@ -1,5 +1,6 @@
 .image_size_carousel {
   object-fit: cover;
+  height: 88vh;
 }
 
 .margin-top-100px {
