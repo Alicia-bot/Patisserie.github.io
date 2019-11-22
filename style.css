@@ -56,12 +56,6 @@ p {
   justify-content: space-around;
 }
 
-.flex_row_date {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 i {
   color: grey;
   width: 40px;
